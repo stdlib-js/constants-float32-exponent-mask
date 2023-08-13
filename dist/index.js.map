@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../tmp/index.js"],
+  "sourcesContent": ["/** @license Apache-2.0 */\n'use strict';\nvar FLOAT32_EXPONENT_MASK = 0x7f800000;\nmodule.exports = FLOAT32_EXPONENT_MASK;\n"],
+  "mappings": "aAEA,IAAIA,EAAwB,WAC5B,OAAO,QAAUA",
+  "names": ["FLOAT32_EXPONENT_MASK"]
+}
