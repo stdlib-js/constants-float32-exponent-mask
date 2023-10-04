@@ -35,23 +35,7 @@ limitations under the License.
 
 > Mask for the exponent of a [single-precision floating-point number][ieee754].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float32-exponent-mask
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
@@ -60,7 +44,7 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 <!-- eslint-disable id-length -->
 
 ```javascript
-var FLOAT32_EXPONENT_MASK = require( '@stdlib/constants-float32-exponent-mask' );
+import FLOAT32_EXPONENT_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-mask@deno/mod.js';
 ```
 
 #### FLOAT32_EXPONENT_MASK
@@ -92,8 +76,8 @@ var bool = ( FLOAT32_EXPONENT_MASK === 0x7f800000 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var toWord = require( '@stdlib/number-float32-base-to-word' );
-var FLOAT32_EXPONENT_MASK = require( '@stdlib/constants-float32-exponent-mask' );
+import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-to-word@deno/mod.js';
+import FLOAT32_EXPONENT_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-mask@deno/mod.js';
 
 var x = 11.5;
 var w = toWord( x ); // 0 10000010 01110000000000000000000
@@ -114,57 +98,7 @@ out = w | FLOAT32_EXPONENT_MASK; // 0 11111111 01110000000000000000000
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/constants/float32/exponent_mask.h"
-```
-
-#### STDLIB_CONSTANT_FLOAT32_EXPONENT_MASK
-
-Macro for the mask for the exponent of a [single-precision floating-point number][ieee754].
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -183,7 +117,7 @@ Macro for the mask for the exponent of a [single-precision floating-point number
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
