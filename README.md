@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT32_EXPONENT_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-mask@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float32-exponent-mask/tags). For example,
+
+```javascript
 import FLOAT32_EXPONENT_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-mask@v0.1.1-esm/index.mjs';
 ```
 
@@ -82,7 +87,7 @@ var bool = ( FLOAT32_EXPONENT_MASK === 0x7f800000 );
 <script type="module">
 
 import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-to-word@esm/index.mjs';
-import FLOAT32_EXPONENT_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-mask@v0.1.1-esm/index.mjs';
+import FLOAT32_EXPONENT_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-mask@esm/index.mjs';
 
 var x = 11.5;
 var w = toWord( x ); // 0 10000010 01110000000000000000000
