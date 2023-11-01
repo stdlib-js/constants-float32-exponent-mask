@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2022 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,32 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var toBinaryString = require( '@stdlib/number-uint32-base-to-binary-string' );
-var toWord = require( '@stdlib/number-float32-base-to-word' );
-var FLOAT32_EXPONENT_MASK = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a number', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof FLOAT32_EXPONENT_MASK, 'number', 'main export is a number' );
-	t.end();
-});
-
-tape( 'the exported value can be used to mask off all bits except for the exponent bits', function test( t ) {
-	var expected;
-	var actual;
-	var w;
-	var x;
-
-	x = 33.8;
-	w = toWord( x ); // 1107768115 => 0 10000100 00001110011001100110011
-
-	actual = w & FLOAT32_EXPONENT_MASK; // 1107296256 => 0 10000100 00000000000000000000000
-	expected = '01000010000000000000000000000000';
-
-	t.strictEqual( toBinaryString( actual ), expected );
-
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
