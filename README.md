@@ -172,6 +172,14 @@ Macro for the mask for the exponent of a [single-precision floating-point number
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/constants-float32/sign-mask`][@stdlib/constants/float32/sign-mask]</span><span class="delimiter">: </span><span class="description">mask for the sign bit of a single-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants-float32/significand-mask`][@stdlib/constants/float32/significand-mask]</span><span class="delimiter">: </span><span class="description">mask for the significand of a single-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants-float32/abs-mask`][@stdlib/constants/float32/abs-mask]</span><span class="delimiter">: </span><span class="description">mask for excluding the sign bit of a single-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -249,6 +257,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float32-exponent-mask/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
+
+<!-- <related-links> -->
+
+[@stdlib/constants/float32/sign-mask]: https://github.com/stdlib-js/constants-float32-sign-mask
+
+[@stdlib/constants/float32/significand-mask]: https://github.com/stdlib-js/constants-float32-significand-mask
+
+[@stdlib/constants/float32/abs-mask]: https://github.com/stdlib-js/constants-float32-abs-mask
+
+<!-- </related-links> -->
 
 </section>
 
