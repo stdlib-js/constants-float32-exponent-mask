@@ -223,8 +223,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-float32-exponent-mask.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-float32-exponent-mask
 
-[test-image]: https://github.com/stdlib-js/constants-float32-exponent-mask/actions/workflows/test.yml/badge.svg?branch=v0.2.3
-[test-url]: https://github.com/stdlib-js/constants-float32-exponent-mask/actions/workflows/test.yml?query=branch:v0.2.3
+[test-image]: https://github.com/stdlib-js/constants-float32-exponent-mask/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/constants-float32-exponent-mask/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float32-exponent-mask/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float32-exponent-mask?branch=main
